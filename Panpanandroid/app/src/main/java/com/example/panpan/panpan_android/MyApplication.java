@@ -44,7 +44,7 @@ public class MyApplication extends Application {
 
             @Override
             public void onActivityResumed(Activity activity) {
-                // 保存当前activity
+
                 Log.i("LIFECYCLE", "onActivityResumed");
 
             }

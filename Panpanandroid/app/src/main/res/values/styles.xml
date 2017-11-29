@@ -21,4 +21,13 @@
         <item name="android:layout_height">1px</item>
         <item name="android:background">@color/com_list_divider</item>
     </style>
+    <style name="ComAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorAccent">#FF541B</item>
+        <item name="colorPrimaryDark">#000000</item>
+    </style>
+    <style name="ComSplashTheme" parent="ComAppTheme">
+        <item name="android:windowBackground">@color/colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
 </resources>

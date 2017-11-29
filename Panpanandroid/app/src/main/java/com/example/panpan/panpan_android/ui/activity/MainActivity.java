@@ -7,17 +7,18 @@ import android.os.Handler;
 import android.os.Message;
 import android.view.View;
 import android.widget.TextView;
-import com.example.panpan.panpan_android.R;
 
+import com.example.panpan.panpan_android.R;
 
 
 public class MainActivity extends BaseActivity {
     TextView mTextView;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mTextView = (TextView)findViewById(R.id.textView);
+        mTextView = (TextView) findViewById(R.id.textView);
         initLoadViewHelper(findViewById(R.id.textView));
 
         showLoadView();
@@ -34,12 +35,12 @@ public class MainActivity extends BaseActivity {
         }).start();
 
 
-       mTextView.setOnClickListener(new View.OnClickListener() {
+        mTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
                 Intent intent = new Intent();
-                intent.setClass(MainActivity.this,GoodDetailActivity.class);
+                intent.setClass(MainActivity.this, GoodDetailActivity.class);
                 startActivity(intent);
 
             }
@@ -47,8 +48,7 @@ public class MainActivity extends BaseActivity {
     }
 
 
-
-  Handler mHandler = new Handler() {
+    Handler mHandler = new Handler() {
 
         @Override
         public void handleMessage(Message msg) {

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlt_guide"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ImageView
+        android:id="@+id/iv_guide"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:id="@+id/iv_guide_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="200dp"
+        android:textColor="@color/com_colorAccent"
+        android:textSize="27sp"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_go"
+        android:layout_width="@dimen/dp238"
+        android:layout_height="@dimen/dp48"
+        android:text="立即前往"
+        android:textColor="@android:color/white"
+        android:textSize="17dp"
+        android:background="@drawable/bg_guide_go"
+        android:gravity="center"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="100dp"
+
+        />
+</FrameLayout>

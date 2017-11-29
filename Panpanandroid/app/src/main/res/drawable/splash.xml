@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@android:color/white"/>
+    
+    <item
+        android:top="70dp">
+        <bitmap
+            android:gravity="top|center_horizontal"
+            android:src="@mipmap/splash_page_img"/>
+    </item>
+    
+    
+    <item
+        android:bottom="40dp"
+        android:gravity="bottom">
+        <bitmap
+            android:gravity="bottom|center_horizontal"
+            android:src="@mipmap/ic_splash_down"/>
+
+    </item>
+
+
+</layer-list>
