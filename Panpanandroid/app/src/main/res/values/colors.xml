@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="Orange">#e75946</color>
+    <color name="Yellow">#f4d227</color>
+    <color name="Blue">#4674e7</color>
+    <color name="Green">#0ba62c</color>
+    <color name="CircleGrey">#F1F1F1</color>
+
+    <color name="com_qrscan_mask">#60000000</color>
+    <color name="com_result_view">#b0000000</color>
+    <color name="com_possible_result_points">#c0ffff00</color>
+
+    <color name="com_colorPrimary">#3F51B5</color>
+    <color name="com_colorPrimaryDark">#000000</color>
+    <color name="com_colorAccent">#FF4081</color>
+    <color name="com_colorMenuText">#FF0000</color>
+    <color name="com_colorTitleText">#000000</color>
+    <color name="com_white">#ffffff</color>
+    <color name="com_text_middle_red">#F68181</color>
+    <color name="com_green">#57D7C9</color>
+    <color name="com_white_pressed">#88ffffff</color>
+    <color name="com_web_progress_start_color">#FF541B</color>
+    <color name="com_web_progress_end_color">#FF541B</color>
+    <color name="com_bg">#f6f6f6</color>
+
+    <color name="com_f3f3f3">#f3f3f3</color>
+    <color name="com_b8b8b8">#b8b8b8</color>
+    <color name="com_fd4e28">#fd4e28</color>
+    <color name="com_c9cacc">#c9cacc</color>
+    <color name="com_000000">#000000</color>
+    <color name="com_ff541b">#ff541b</color>
+    <color name="com_4a4a4a">#4a4a4a</color>
+    <color name="com_d9d9d9">#d9d9d9</color>
+    <color name="com_ff7648">#ff7648</color>
+    <color name="com_fb9028">#fb9028</color>
+    <color name="com_fe5b1c">#fe5b1c</color>
+    <color name="com_e8e8e8">#e8e8e8</color>
+    <color name="com_a2a2a2">#a2a2a2</color>
+    <color name="com_ff0000">#ff0000</color>
+    <color name="com_cc000000">#cc000000</color>
+    <color name="com_ececec">#ececec</color>
+    <color name="com_a5a5a5">#a5a5a5</color>
+    <color name="com_e7e7e7">#e7e7e7</color>
+    <color name="com_999999">#999999</color>
+    <color name="com_list_divider">#F1F1F1</color>
+    <color name="bg_color">#EDEDED</color>
+    <color name="com_slide_tab_pressed">#aae5e5e5</color>
+    <color name="com_aaaaaa">#AAAAAA</color>
+    <color name="com_333333">#333333</color>
+    <color name="com_fd5729">#FD5729</color>
+    <color name="com_b6b6b6">#B6B6B6</color>
+    <color name="com_828282">#828282</color>
+    <color name="com_e2e2e2">#e2e2e2</color>
+    <color name="com_40BD63">#40BD63</color>
+    <color name="com_FFAD54">#FFAD54</color>
+    <color name="com_66D79C">#66D79C</color>
+    <color name="com_868686">#868686</color>
+    <color name="com_protocol_text">#FD5729</color>
+    <color name="com_FF541B">#FF541B</color>
+    <color name="com_ffe3aa">#ffe3aa</color>
+    <color name="com_e7933c">#e7933c</color>
+    <color name="com_8a8a8a">#8a8a8a</color>
+    <color name="com_f6f6f6">#F6F6F6</color>
+    <color name="com_666666">#666666</color>
+    <color name="com_9B9B9B">#9B9B9B</color>
+    <color name="com_f2f2f2">#f2f2f2</color>
+    <color name="com_100_percents">#00000000</color>
+    <color name="com_cacaca">#cacaca</color>
+    <color name="com_222222">#222222</color>
+    <color name="com_efefef">#EFEFEF</color>
+    <color name="com_dddddd">#dddddd</color>
+    <color name="com_f1f1f1">#f1f1f1</color>
+    <color name="com_e5e5e5">#e5e5e5</color>
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

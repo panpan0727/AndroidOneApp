@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/com_bg"
+              android:orientation="vertical">
+    
+    <com.example.panpan.panpan_android.ui.widget.CommonTitleBar
+        android:id="@+id/v_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/com_title_bar_height"
+        android:background="@color/com_white"
+        app:title_left_image="@mipmap/com_back"
+        app:title_text="@string/com_order_all"/>
+
+    <View
+        style="@style/VerticalDivider"
+        android:background="@color/com_e2e2e2"/>
+    
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dp1.5"
+        android:background="@color/transparent"/>
+
+</LinearLayout>

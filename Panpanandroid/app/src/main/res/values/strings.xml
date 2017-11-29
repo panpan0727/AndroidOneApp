@@ -1,0 +1,58 @@
+<resources>
+
+    <string name="app_name">Panpan-android</string>
+    <string name="com_app_name">module_commonlib</string>
+    <string name="com_phone_number">手机号</string>
+    <string name="com_ok">确认</string>
+    <string name="com_rule_add_card">《委托代扣授权书》</string>
+    <string name="server_error">服务器连接失败, 请稍后重试</string>
+
+    <string name="com_prompt_coming_soon">~ 敬请期待 ~</string>
+    <string name="com_unknow_address">~ 未知地址 ~</string>
+    <string name="com_prompt_load_failed">加载失败，请重试</string>
+    <string name="com_prompt_loading">正在加载中...</string>
+    <string name="com_prompt_load_empty">暂时没有哦</string>
+    <string name="com_retry">重试</string>
+    <string name="com_auth_time_out">登录失效，请重新登录</string>
+    <string name="com_prompt_freeze_account">您的账户已被冻结，请联系客服</string>
+    <string name="com_order_all">全部订单</string>
+    <string name="com_btn_known">我知道了</string>
+    <string name="com_is_business">我是商户</string>
+    <string name="com_loading">加载中...</string>
+    <string name="com_loading_error">加载错误</string>
+    <string name="com_scan_error">解析错误,请重试</string>
+    <string name="com_reloading">重新加载</string>
+    <string name="com_search">搜索</string>
+
+    <string name="prompt_order_pay_success">支付成功</string>
+    <string name="prompt_order_pay_failed">支付失败</string>
+    <string name="prompt_order_pay_canceled">支付已取消</string>
+
+    <string name="com_pay_left_time">您的订单在%s内未付款将被取消，请尽快完成支付！</string>
+    <string name="loading_error_txt"><![CDATA[>.....<页面加载失败]]></string>
+    <string name="reload">重新加载</string>
+    <string name="com_check_network">检查网络</string>
+    <string name="no_network">好像与世界失去了联系</string>
+    <string name="com_permission_tip_formart">请在设置-应用-金诚逸-权限中开启[%s]权限，才能正常使用此功能哦！</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="goto_setting">去设置</string>
+    <string name="com_license_intro">营业执照</string>
+    <string name="url_empty">地址为空！</string>
+
+    <string name="com_nodata">暂无数据哦</string>
+
+    <!-- 视频播放组件使用 -->
+    <string name="com_video_play_completed">视频播放完毕</string>
+    <string name="com_video_play_again">重新播放</string>
+    <string name="com_video_loading_fault_without_wifi">加载失败，请检查网络设置</string>
+    <string name="com_video_refresh">刷新重试</string>
+    <string name="com_video_play_without_wifi_notice">您目前不在wifi环境下，继续可能会产生流量费用</string>
+    <string name="com_video_play_continue">继 续</string>
+    <!-- 视频播放组件使用 -->
+    <string name="com_take_photo">拍照</string>
+    <string name="com_select_photo">从手机相册选择</string>
+    <!-- CallPhone -->
+    <string name="com_call_ok">呼叫</string>
+    <string name="com_call_denial">没有拨打电话的权限，请前往设置中更改</string>
+</resources>

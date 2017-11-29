@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/rl_suffer_view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+    
+    <FrameLayout
+        android:id="@+id/lifeCircleFragment"
+        android:layout_width="1dp"
+        android:layout_height="1dp"/>
+    
+    <RelativeLayout
+        android:id="@+id/view_holder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"/>
+    
+    <RelativeLayout
+        android:id="@+id/rl_play_again"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="@android:color/black"
+        android:visibility="gone">
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            
+            <TextView
+                android:id="@+id/tv_play_notice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/com_video_play_completed"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/sp14"/>
+            
+            <TextView
+                android:id="@+id/tv_video_play_again"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp25"
+                android:background="@drawable/com_video_bg_two_button_border_orange"
+                android:paddingBottom="@dimen/dp4"
+                android:paddingLeft="@dimen/dp20"
+                android:paddingRight="@dimen/dp20"
+                android:paddingTop="@dimen/dp5"
+                android:text="@string/com_video_play_again"
+                android:textColor="#FFC041"
+                android:textSize="@dimen/sp15"/>
+        </LinearLayout>
+    
+    </RelativeLayout>
+    
+    <include layout="@layout/com_video_layout_fast_forward"/>
+    
+    <RelativeLayout
+        android:id="@+id/rl_normalscreen_controller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        
+        <com.jcgroup.commonlib.component.player.core.PlayerController
+            android:id="@+id/media_controller_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+    </RelativeLayout>
+
+</RelativeLayout>

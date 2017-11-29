@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="com_title_left_text" type="id"/>
+    <item name="com_title_left_image" type="id"/>
+    <item name="com_title_right_text" type="id"/>
+    <item name="com_title_right_image" type="id"/>
+    <item name="com_finance_buy_btn" type="id"/>
+    <item name="com_finance_cover_iv" type="id"/>
+    <item name="com_finance_middle_info_ll_1" type="id"/>
+    <item name="com_finance_middle_info_ll_2" type="id"/>
+    <item name="com_img_url_path" type="id"/>
+    <item name="cpn_position" type="id"/>
+    <item name="com_cpn_data" type="id"/>
+    <item name="com_shoplist" type="id"/>
+    <item name="com_goodsQuery" type="id"/>
+    <item name="com_goodsDetail" type="id"/>
+    <item name="com_commonTitle" type="id"/>
+    <item name="com_orderConfirm" type="id"/>
+    <item name="com_order_cancel" type="id"/>
+    <item name="com_order_delete" type="id"/>
+    <item name="com_order_pay" type="id"/>
+    <item name="com_version_check" type="id"/>
+    <item name="com_pay_success" type="id"/>
+    <item name="com_pay_confirm" type="id"/>
+    <item name="com_other_pay_cancel" type="id"/>
+    <item name="com_new_message" type="id"/>
+    <item name="com_qualified_investor" type="id"/>
+    <item name="com_exit_app" type="id"/>
+    <item name="com_new_town_msg" type="id"/>
+    <item name="com_reset_carmer" type="id"/>
+    <item name="com_logut" type="id"/>
+</resources>
